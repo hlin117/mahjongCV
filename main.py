@@ -68,7 +68,17 @@ def NN(tiles, testData):
 			inliers = [findInlier(pair) for pair in pairs]
 
 		theMax = max(inliers)
+
+		#Show the tile to identify
+		cv.imshow("Tile to identify", tile)
+		cv.waitKey(1)
+
+		#Show the best guess tile
 		guess = cv.imread(theMax[1])
+		guess = cv.resize(guess, (0,0), fx = 0.2, fy = 0.2)
+		cv.imshow("The guess", guess)
+		cv.waitKey(0)
+
 		maxInliers.append(theMax)
 
 
