@@ -21,9 +21,9 @@ class Box():
 	
 	def __init__(self, x, y, width, height):
 		if width < 0 or height < 0:
-			print Fore.RED + "WARNING: Width or height is less than 0." + Fore.RESET
+			print( Fore.RED + "WARNING: Width or height is less than 0." + Fore.RESET )
 		elif x < 0 or height < 0:
-			print Fore.RED + "WARNING: x or y is less than 0." + Fore.RESET
+			print( Fore.RED + "WARNING: x or y is less than 0." + Fore.RESET )
 
 		self.startX = x
 		self.startY = y

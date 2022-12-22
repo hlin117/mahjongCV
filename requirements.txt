@@ -1,5 +1,13 @@
-Pillow==2.4.0
-numpy==1.8.1
-scipy==0.13.3
-wsgiref==0.1.2
-colorama==0.3.1
+# Pillow==2.4.0
+Pillow
+#numpy==1.8.1
+numpy
+#scipy==0.13.3
+scipy
+#wsgiref==0.1.2
+wsgiref
+# colorama==0.3.1
+colorama
+#opencv==3.1
+#opencv-python==2.4.9
+opencv-python
